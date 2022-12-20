@@ -1,0 +1,93 @@
+* {
+  background-color: rgb(250, 249, 242);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  margin: 50px 0 80px 0;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scores {
+  width: 35%;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.addscore {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.addscore form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.addscore form input {
+  padding: 20px;
+}
+
+.refresh {
+  padding: 5px 10px;
+  width: fit-content;
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+  box-shadow: 2px 3px black;
+}
+
+.addscore form .refresh {
+  align-self: flex-end;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.whitebcolor {
+  background-color: white;
+  padding: 10px;
+}
+
+.graybcolor {
+  background-color: rgb(212, 228, 241);
+  padding: 10px;
+}
+
+#name,
+#score {
+  height: 20px;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+li:nth-child(even) {
+  background-color: rgb(210, 207, 207);
+}
